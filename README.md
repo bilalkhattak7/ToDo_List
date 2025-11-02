@@ -1,16 +1,38 @@
-# todo_list
+Project Overview
+A feature-rich Todo List application built with Flutter that helps users manage their daily tasks efficiently. This app demonstrates core Flutter concepts and provides a complete CRUD (Create, Read, Update, Delete) functionality.
 
-A new Flutter project.
+ Features
+Add New Tasks: Quick input field to add new todos
 
-## Getting Started
+Mark as Complete: Checkbox to toggle task completion status
 
-This project is a starting point for a Flutter application.
+Edit Tasks: Inline editing with save/cancel options
 
-A few resources to get you started if this is your first Flutter project:
+Delete Tasks: Remove tasks with delete button
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Progress Tracking: Visual indicator showing completed vs total tasks
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Empty State: Friendly message when no tasks exist
+
+Visual Feedback: Strikethrough text for completed tasks
+
+Persistent UI: Clean Material Design interface
+
+ Technical Skills Demonstrated
+State Management: setState for local state management
+
+Widget Composition: Custom TodoItemWidget with reusable components
+
+User Input Handling: TextField controllers and form validation
+
+ListView.builder: Efficient rendering of dynamic lists
+
+Gesture Detection: Tap handlers for interactive elements
+
+UI/UX Design: Material Design principles and responsive layout
+
+ Screens
+Main screen with task list and input field
+
+Interactive task items with edit/delete options
+
